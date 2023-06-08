@@ -1,0 +1,16 @@
+
+.authentification, .dashboard, .payment, .booking_form{
+    border: 1px solid black;
+    min-height: 70vh;
+}
+/* // reminder authentification stylings */
+
+h5{
+    color: green;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+

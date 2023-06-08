@@ -1,0 +1,17 @@
+/* reminder": navBar stylings */
+.navbar {
+  border: 1px solid red;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+}
+.navbar .link {
+  text-decoration: none;
+  color: rgb(0, 82, 0);
+}
+
+.footer {
+  border: 1px solid red;
+  min-height: 10vh;
+}/*# sourceMappingURL=styles.css.map */
