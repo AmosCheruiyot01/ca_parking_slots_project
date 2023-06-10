@@ -1,16 +1,25 @@
 
-.authentification, .dashboard, .payment, .booking_form{
+.signup, .dashboard, .booking_form .dashboard, .login, .payment, .booking_form{
     border: 1px solid black;
     min-height: 70vh;
 }
-/* // reminder authentification stylings */
+/* // reminder SIGN UP stylings */
 
-h5{
-    color: green;
-}
 
-form{
+form, .login, .signup{
     display: flex;
     flex-direction: column;
+}
+
+.login, .signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ border: 1px solid black;
+}
+
+.signup_inputs, .login_inputs{
+    min-width: 50vh;
+    min-height: 3vh;
 }
 

@@ -6,10 +6,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 
-import Authentification from './pages/authentification'
+import Authentification from './pages/signup'
 import Dashboard from './pages/dashboard';
 import Booking_form from './pages/booking_form';
 import Payment from './pages/payment';
+import Login from './pages/login';
+
 import NavBar from './components/navBar';
 import Footer from './components/footer';
 
@@ -21,10 +23,13 @@ function App() {
   <BrowserRouter>
   <NavBar/>
   <Routes>
+  <Route path='/' element={<Login/>}/>
 <Route path='/dashboard' element={<Dashboard/>}/>
 <Route path='/login' element={<Authentification/>}/>
 <Route path='/booking_form' element={<Booking_form/>}/>
 <Route path='/payment' element={<Payment/>}/>
+
+
   </Routes>
   <Footer/>
   </BrowserRouter>
